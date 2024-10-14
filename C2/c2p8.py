@@ -1,0 +1,17 @@
+print("23mca022")
+print("Aslam Ismail")
+print("12-08-24")
+import numpy as np
+arr_1d=np.array([1,2,3,4,5])
+print("\n 1D array before insertion")
+print(arr_1d)
+arr_1d=np.insert(arr_1d,2,6)
+print("\n 1D array after insertion")
+print(arr_1d)
+arr_2d=np.array([[1,2,3],[4,5,6]])
+print("\n Original 2D array")
+print(arr_2d)
+arr_2d=np.insert(arr_2d,1,[7,8,9],axis=0)
+print("\n2D Array after insertion")
+print(arr_2d)
+
